@@ -1,0 +1,56 @@
+#title {
+    .row-title {
+        width: 100%;
+        padding: 3% 15% 5% 15%;
+        margin-top: 10%;
+    }
+    .title-text {
+        position: relative;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .title-h1 {
+        font-size: 3rem;
+    }
+    
+    .title-h2 {
+        font-size: 2rem;
+        color: #3f3f44;
+        margin: 10% 0;
+    }
+
+    .title-btn2:hover {
+        background-color: #3f3f44;
+
+    }
+    .title-btn {
+        margin-right: 3%;
+    }
+    
+    .img-col {
+        padding: 0;
+        animation-name: moveImg;
+        animation-duration: 2.5s;
+        animation-iteration-count: 1;
+
+    @keyframes moveImg {
+        10%   {background-color:inherit; left:0px; top:0px;}
+        25%  {background-color:inherit; left:20px; top:20px;}
+        50%  {background-color:inherit; left:20px; top:20px;}
+        50%  {background-color:inherit; left:0px; top:30px;}
+        100% {background-color:inherit; left:0px; top:0px;}
+      }
+        .title-img {
+            width: 140%;
+            display: block;
+        }
+    }
+    
+}
+
+
+
+
+
+
+

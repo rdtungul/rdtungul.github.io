@@ -1,0 +1,35 @@
+#navbar {
+    position: fixed;
+    width: 100%;
+    padding: 1% 15%;
+    margin: 3% 0;
+}
+#navbar.cus-nav {
+    background-color: #F4F6FF;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+
+.navbar{
+    font-size: 1.3rem;
+    margin-top: 1%;
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s;
+
+
+    .nav-collapse {
+        border: inherit;
+        background-color: #4F8A8B;
+    }
+}
+
+.logo-img {
+    width: 40%;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+

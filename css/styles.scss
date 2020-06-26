@@ -1,0 +1,77 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgba(255,245,165,0.8);
+  background: -moz-linear-gradient(left, rgba(255,245,165,0.8) 0%, rgba(65,175,219,0.5) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,245,165,0.8)), color-stop(100%, rgba(65,175,219,0.5)));
+  background: -webkit-linear-gradient(left, rgba(255,245,165,0.8) 0%, rgba(65,175,219,0.5) 100%);
+  background: -o-linear-gradient(left, rgba(255,245,165,0.8) 0%, rgba(65,175,219,0.5) 100%);
+  background: -ms-linear-gradient(left, rgba(255,245,165,0.8) 0%, rgba(65,175,219,0.5) 100%);
+  background: linear-gradient(to right, rgba(255,245,165,0.8) 0%, rgba(65,175,219,0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff5a5', endColorstr='#41afdb', GradientType=1 );
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 3% 15%;
+}
+
+.section-title {
+  width: 100%;
+  padding: 4% 0 2% 0;
+  text-align: center;
+}
+
+.plain-section {
+  width: 100%;
+
+  background-color: #F4F6FF;
+  // background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+  position: relative;
+  z-index: 0;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    * {
+     scroll-behavior: smooth;
+     text-align: center;
+    }
+    body {
+      padding-top:5%
+    }
+    .navbar-brand {
+      text-align: left;
+    }
+    .title-img {
+      position: relative;
+      right: 17%;
+      margin-top: 10%;
+    }
+    .achievements-text {
+      font-size: 1.2rem;
+    }
+  }
+
+  
+
+@import "navbar";
+@import "title";
+@import "projects";
+@import "achievements";
+@import "skills";
+@import "services";
+@import "about";
+@import "footer";

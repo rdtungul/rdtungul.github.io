@@ -1,0 +1,25 @@
+#services {
+    text-align: center;
+
+    .card {
+        background-color: inherit;
+        border: inherit;
+        // margin: .1rem;
+        padding: 0;
+
+    }
+
+    .services-card {
+        padding: 0;
+    }
+    .services-icon {
+        margin: 0 0 10% 0;
+        color: #3f3f44;
+    }
+    .services-title {
+        font-size: 1.1rem;
+    }
+    .services-text {
+        font-size: 1rem;
+    }
+}

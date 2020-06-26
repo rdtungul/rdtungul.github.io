@@ -1,0 +1,25 @@
+#about {
+    text-align: left;
+
+    .about-title {
+        margin-bottom: 5%;
+    }
+    // .about-myself {
+    //     color: #4F8A8B;
+    // }
+    .about-lcontent {
+        text-align: center;
+    }
+    .about-img {
+        width: 75%;
+        // margin-bottom: 5%;
+    }
+    .about-author {
+        margin: 5% 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .about-ach {
+        width: 65%;
+    }
+}
